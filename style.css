@@ -10,7 +10,7 @@ body {
 }
 
 .main {
-  width: 80vw;
+  inline-size: 80vw;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@ body {
 
 .titulo {
   padding: 15px;
-  width: 30vw;
+  inline-size: 30vw;
   margin: auto;
 
 }
@@ -29,8 +29,8 @@ body {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: white;
   border-radius: 0.5em;
-  width: 30vw;
-  height: auto;
+  inline-size: 30vw;
+  block-size: auto;
 }
 
 .btn {
@@ -39,7 +39,7 @@ body {
   font-weight: bold;
   background-color: blue;
   padding: 10px;
-  margin-top: 10px;
+  margin-block-start: 10px;
   border-radius: 0.5em;
 }
 
@@ -48,6 +48,6 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.2);
   display: block;
   padding: 0.5em;
-  width: 100%;
-  height: 50px;
+  inline-size: 100%;
+  block-size: 50px;
 }
